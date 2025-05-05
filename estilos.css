@@ -1,0 +1,105 @@
+body {
+  background: linear-gradient(135deg, #000000, #444444);
+  color: #FFFFFF;
+  margin: 0;
+  font-family: 'UnifrakturCook', serif;
+}
+
+/* Contenedor principal */
+.contenedor {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Título principal */
+h1 {
+  font-size: 3rem;
+  color: #FF0000;
+  text-align: center;
+  text-shadow: 2px 2px 8px #800000;
+}
+
+/* Subtítulo */
+.subtitulo {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: -10px;
+  color: #FFA500;
+}
+
+/* Encabezados de sección */
+h2 {
+  font-size: 2rem;
+  color: #FFA500;
+  border-bottom: 2px solid #800000;
+  padding-bottom: 8px;
+  margin-top: 40px;
+}
+
+/* Texto de párrafos */
+section p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+}
+
+/* Lista */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  color: #FFFFFF;
+}
+
+/* Alerta */
+.alerta {
+  background-color: #220000;
+  color: #FFAAAA;
+  padding: 15px;
+  border-left: 5px solid #FF0000;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #BBBBBB;
+  background-color: #111;
+  margin-top: 40px;
+}
+
+/* Imágenes decorativas */
+.decoracion {
+  position: fixed;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  background-color: #000000;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+  opacity: 0.9;
+  z-index: 10;
+  transition: transform 0.3s ease-in-out;
+}
+
+.decoracion:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.img-humana {
+  bottom: 20px;
+  left: 20px;
+}
+
+.img-dragon {
+  top: 20px;
+  right: 20px;
+}
